@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Arvind Singh</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-sans tracking-wide">
+  <video autoplay loop muted playsinline class="background-video">
+    <!-- <source src="video.mp4" type="video/mp4"> -->
+    <source src="3130284-uhd_3840_2160_30fps.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <!-- Header -->
+  <header class="bg-transparent">
+    <div class="container mx-auto flex justify-between items-center py-6 px-8">
+      <h1 class="text-4xl font-bold primary-yellow">Arvind Singh</h1>
+      <nav>
+        <ul class="flex space-x-8 text-lg">
+          <li><a href="#about" class="hover:text-yellow-400">About</a></li>
+          <li><a href="#projects" class="hover:text-yellow-400">Projects</a></li>
+          <li><a href="#skills" class="hover:text-yellow-400">Skills</a></li>
+          <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
+          <li><a href="https://in.linkedin.com/in/arvind-singh-92b88928a" class="hover:text-yellow-400">Linkdin</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<!-- Hero Section -->
+<section id="hero" class="relative text-center py-20 bg-transparent">
+  <div class="container mx-auto flex flex-col md:flex-row items-center px-6">
+
+    <!-- Image Section -->
+    <div class="w-full md:w-1/3 flex justify-center mb-6 md:mb-0">
+      <img src="WhatsApp Image 2025-02-21 at 11.17.33 PM-removebg-preview.jpg" alt="Profile Image" 
+        class="rounded-lg shadow-lg hover-highlight w-48 h-48 md:w-64 md:h-64 object-cover border-4 border-yellow-500">
+    </div>
+
+    <!-- Hero Text -->
+    <div class="w-full md:w-2/3 text-center md:text-left">
+      <h2 class="text-5xl font-extrabold primary-yellow">
+        Hi, I am <span id="text"></span>
+      </h2>
+      <a href="#projects" class="inline-block mt-8 bg-yellow-500 text-gray-900 font-semibold text-xl px-8 py-4 rounded-full hover:bg-yellow-600 transition-all">
+        Explore My Projects
+      </a>
+    </div>
+
+  </div>
+</section>
+
+  <!-- About Section -->
+<section id="about" class="container mx-auto py-16 px-6 bg-transparent">
+  <div class="flex flex-col items-center md:items-start text-center md:text-left">
+    
+    <!-- About Text -->
+    <div class="w-full md:w-3/4">
+      <h3 class="text-4xl font-bold primary-yellow">About Me</h3>
+      <p class="mt-4 text-white leading-relaxed text-lg backdrop-blur-[2px] bg-blur-800/50 rounded-lg">
+        Hello,<br>
+I am a second-year Computer science and Engineering student at Guru Gobind Singh Indraprastha University New Delhi. My foundation in programming languages includes proficiency in C/C++,Python, Javascript and HTML/CSS, with a strong focus on Problem solving, Data structure and algorithm, Database Management system, AI-driven solutions, and full-stack development. <br>
+And with a deep interest in Research, Software Engineering, Artificial Intelligence, Data Science, Project Management , finance, and entrepreneurship.
+<br>
+I have worked on various projects and Currently, I am working on:<br>
+🔹 A Full-Stack AI-Powered Web Application.<br>
+
+I am always open to connecting with industry professionals, fellow innovators and like-minded individuals who share a passion for Research, Software Development, Artificial Intelligence , Data Science and entrepreneurship. If you are interested in collaborating on projects, discussing ideas, exploring opportunities, or simply networking, feel free to reach out.
+        <br>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-transparent py-16">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-bold primary-yellow text-center">Projects</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+
+<!-- Project Card --> 
+<div class="backdrop-blur-md bg-gray-800/50 rounded-lg shadow-lg overflow-hidden hover-highlight transition-all duration-300 w-80">
+
+  <!-- Square Image as the Packet -->
+  <div class="w-full aspect-square">
+      <img src="numguess logo.webp" alt="Project 1" class="w-full h-full object-cover">
+  </div>
+
+  <!-- Stylish Yellow Divider with Curved Edges & Glow -->
+  <div class="relative w-full h-1.5 bg-gradient-to-r from-yellow-500 via-yellow-300 to-yellow-500 animate-pulse rounded-t-full">
+      <div class="absolute inset-0 bg-yellow-500 blur-lg opacity-30 rounded-t-full"></div>
+  </div>
+
+  <!-- Project Details at the Bottom -->
+  <div class="p-4 bg-gray-900 rounded-b-lg">
+      <div class="flex justify-between items-center">
+          <h4 class="text-lg font-semibold text-yellow-400">Guess the Number</h4>
+
+          <!-- Project Link Button (Smaller & Well-Placed) -->
+          <a href="https://04arvind.github.io/Guess-the-number/" target="_blank">
+            <button class="px-5 py-2 text-sm font-medium text-gray-900 bg-yellow-400 rounded-full transition-all duration-300 
+                           hover:bg-yellow-500 hover:shadow-xl hover:scale-110 active:scale-95 flex items-center gap-2">🔗 Click
+            </button>
+        </a>
+      </div>
+
+      <div class="text-gray-400 mt-2 text-sm">
+          <p>• Developed a Web-based number guessing game that challenges users to guess a randomly generated integer within a specified range.</p>
+          <p>• Implemented a logarithmic formula to calculate the optimal number of attempts, enhancing the game’s difficulty balance.</p>
+          <p>• Designed a user-friendly interface with immediate feedback for each guess, guiding users towards the correct answer.</p>
+      </div>
+  </div>
+</div>
+
+<!-- Project Card 2 --> 
+<div class="backdrop-blur-md bg-gray-800/50 rounded-lg shadow-lg overflow-hidden hover-highlight transition-all duration-300 w-80">
+
+  <!-- Square Image as the Packet -->
+  <div class="w-full aspect-square">
+      <img src="Gemini_Generated_Image_gmei51gmei51gmei.jpg" alt="Project 2" class="w-full h-full object-cover">
+  </div>
+
+  <!-- Stylish Yellow Divider with Curved Edges & Glow -->
+  <div class="relative w-full h-1.5 bg-gradient-to-r from-yellow-500 via-yellow-300 to-yellow-500 animate-pulse rounded-t-full">
+      <div class="absolute inset-0 bg-yellow-500 blur-lg opacity-30 rounded-t-full"></div>
+  </div>
+
+  <!-- Project Details at the Bottom -->
+  <div class="p-4 bg-gray-900 rounded-b-lg">
+      <div class="flex justify-between items-center">
+          <h4 class="text-lg font-semibold text-yellow-400">Ice Cream Haven</h4>
+
+          <!-- Project Link Button (Smaller & Well-Placed) -->
+          <a href="https://04arvind.github.io/Ice-cream-shop-website/" target="_blank">
+            <button class="px-5 py-2 text-sm font-medium text-gray-900 bg-yellow-400 rounded-full transition-all duration-300 
+                           hover:bg-yellow-500 hover:shadow-xl hover:scale-110 active:scale-95 flex items-center gap-2">
+                🔗 Click
+            </button>
+        </a>
+      </div>
+
+      <div class="text-gray-400 mt-2 text-sm">
+          <p>• Developed a Web-based number guessing game that challenges users to guess a randomly generated integer
+            within a specified range.</p>
+          <p>• Implemented a logarithmic formula to calculate the optimal number of attempts, enhancing the game’s
+            difficulty balance.</p>
+          <p>• Designed a user-friendly interface with immediate feedback for each guess, guiding users towards the correct
+            answer.</p>
+      </div>
+  </div>
+</div>
+
+      
+
+        
+        <!-- Add additional projects in the same format -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+<section id="skills" class="container mx-auto py-16 px-6 bg-transparent">
+  <h3 class="text-3xl font-bold primary-yellow text-center">Skills</h3>
+
+  <div class="flex justify-center mt-10">
+    <ul class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-center text-lg">
+      
+      <!-- Skill Item -->
+      <li class="backdrop-blur-md bg-gray-800/50 rounded-lg shadow-md p-3 flex flex-col items-center hover:shadow-xl transition-all">
+        <img src="html logo.png"class="w-10 h-10 mb-2">
+        <span class="text-white">HTML5 & CSS</span>
+      </li>
+      
+      <li class="backdrop-blur-md bg-gray-800/50 rounded-lg shadow-md p-3 flex flex-col items-center hover:shadow-xl transition-all">
+        <img src="cpp logo.png" alt="C++" class="w-10 h-10 mb-2">
+        <span class="text-white">C++</span>
+      </li>
+      <li class="backdrop-blur-md bg-gray-800/50 rounded-lg shadow-md p-3 flex flex-col items-center hover:shadow-xl transition-all">
+        <img src="Js logo.png" alt="JavaScript" class="w-10 h-10 mb-2">
+        <span class="text-white">JavaScript</span>
+      </li>
+      <li class="backdrop-blur-md bg-gray-800/50 rounded-lg shadow-md p-3 flex flex-col items-center hover:shadow-xl transition-all">
+        <img src="Python-logo-notext.svg.png" alt="Python" class="w-10 h-10 mb-2">
+        <span class="text-white">Python</span>
+      </li>
+
+      <li class="backdrop-blur-md bg-gray-800/50 rounded-lg shadow-md p-3 flex flex-col items-center hover:shadow-xl transition-all">
+        <img src="tailwind logo.png" alt="Tailwind CSS" class="w-10 h-10 mb-2">
+        <span class="text-white">Tailwind CSS</span>
+      </li>
+
+      <li class="backdrop-blur-md bg-gray-800/50 rounded-lg shadow-md p-3 flex flex-col items-center hover:shadow-xl transition-all">
+        <img src="React.webp" alt="React" class="w-10 h-10 mb-2">
+        <span class="text-white">React.js</span>
+      </li>
+      <li class="backdrop-blur-md bg-gray-800/50 rounded-lg shadow-md p-3 flex flex-col items-center hover:shadow-xl transition-all">
+        <img src="redux logo.svg" alt="React" class="w-10 h-10 mb-2">
+        <span class="text-white">Redux</span>
+      </li>
+
+      <li class="backdrop-blur-md bg-gray-800/50 rounded-lg shadow-md p-3 flex flex-col items-center hover:shadow-xl transition-all">
+        <img src="node lgo.png" alt="Node.js" class="w-10 h-10 mb-2">
+        <span class="text-white">Node.js</span>
+      </li>
+      <li class="backdrop-blur-md bg-gray-800/50 rounded-lg shadow-md p-3 flex flex-col items-center hover:shadow-xl transition-all">
+        <img src="expresslogo.webp" alt="Node.js" class="w-10 h-10 mb-2">
+        <span class="text-white">Express.js</span>
+      </li>
+      <li class="backdrop-blur-md bg-gray-800/50 rounded-lg shadow-md p-3 flex flex-col items-center hover:shadow-xl transition-all">
+        <img src="mogolog.png" alt="Node.js" class="w-10 h-10 mb-2">
+        <span class="text-white">MongoDB</span>
+      </li>
+      <li class="backdrop-blur-md bg-gray-800/50 rounded-lg shadow-md p-3 flex flex-col items-center hover:shadow-xl transition-all">
+        <img src="postmanlogo.png" alt="Node.js" class="w-10 h-10 mb-2">
+        <span class="text-white">Postman API</span>
+      </li>
+
+      <li class="backdrop-blur-md bg-gray-800/50 rounded-lg shadow-md p-3 flex flex-col items-center hover:shadow-xl transition-all">
+        <img src="gitlogog.png" alt="Git & GitHub" class="w-10 h-10 mb-2">
+        <span class="text-white">Git</span>
+      </li>
+      <li class="backdrop-blur-md bg-gray-800/50 rounded-lg shadow-md p-3 flex flex-col items-center hover:shadow-xl transition-all">
+        <img src="github.png" alt="Git & GitHub" class="w-10 h-10 mb-2">
+        <span class="text-white">GitHub</span>
+      </li>
+
+      <li class="backdrop-blur-md bg-gray-800/50 rounded-lg shadow-md p-3 flex flex-col items-center hover:shadow-xl transition-all">
+        <img src="numpylogo.png" alt="NumPy & Pandas" class="w-10 h-10 mb-2">
+        <span class="text-white">NumPy</span>
+      </li>
+      <li class="backdrop-blur-md bg-gray-800/50 rounded-lg shadow-md p-3 flex flex-col items-center hover:shadow-xl transition-all">
+        <img src="pandaslogo.png" alt="NumPy & Pandas" class="w-10 h-10 mb-2">
+        <span class="text-white">Pandas</span>
+      </li>
+
+    </ul>
+  </div>
+</section>
+
+<!-- Education Section -->
+<section id="education" class="py-16 bg-transparent">
+  <div class="max-w-4xl mx-auto px-6 text-center">
+    <h2 class="text-4xl font-bold primary-yellow text-center">Education</h2>
+    <div class="space-y-6 ">
+      <div class=" p-6 rounded-xl shadow-lg backdrop-blur-md bg-blur rounded-lg">
+        <h3 class="text-2xl font-semibold text-white">B.Tech. :- Computer Science and Engineering</h3>
+        <p class="text-gray-300 text-lg">Guru Gobind Singh Indraprastha University</p>
+        <p class="text-gray-400 text-md">2023-2027</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="py-12 bg-transparent">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-4xl font-bold text-yellow-400 text-center mb-8">Experience</h2>
+
+    <div class="relative border-l-4 border-yellow-500 backdrop-blur-md bg-gray-800/50 rounded-lg">
+      
+      <!-- Experience 1 (Latest) -->
+      <div class="mb-8 ml-6">
+        <div class="absolute -left-3.5 w-7 h-7 bg-yellow-500 rounded-full border-4 border-white"></div>
+        <div class="backdrop-blur-lg bg-gray-800/50 p-6 rounded-xl shadow-lg flex items-center space-x-4">
+          
+          <!-- Company Logo -->
+          <img src="Wells_Fargo_Logo_(2020).png" alt="geek room Logo" class="w-12 h-12 rounded-lg shadow-md">
+      
+          <!-- Experience Content -->
+          <div>
+            <h3 class="text-2xl font-semibold text-white">Software Engineering Job Simulation</h3>
+            <p class="text-gray-300 text-lg">Forage</p>
+            <p class="text-gray-400 text-md">February 13th 2025 </p>
+            <!-- <p class="mt-3 text-gray-200 text-lg">[Short description of your role]</p> -->
+          </div>
+        </div>
+      </div>
+      <!-- Experience 1 (Latest) -->
+      <div class="mb-8 ml-6">
+        <div class="absolute -left-3.5 w-7 h-7 bg-yellow-500 rounded-full border-4 border-white"></div>
+        <div class="backdrop-blur-lg bg-gray-800/50 p-6 rounded-xl shadow-lg flex items-center space-x-4">
+          
+          <!-- Company Logo -->
+          <img src="geekroom logo.webp" alt="geek room Logo" class="w-12 h-12 rounded-lg shadow-md">
+      
+          <!-- Experience Content -->
+          <div>
+            <h3 class="text-2xl font-semibold text-white">Sponsorship and Outreach Team Member</h3>
+            <p class="text-gray-300 text-lg">Geek Room</p>
+            <p class="text-gray-400 text-md">Dec 2024 - Present</p>
+            <!-- <p class="mt-3 text-gray-200 text-lg">[Short description of your role]</p> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience 2 -->
+      <div class="mb-8 ml-6">
+        <div class="absolute -left-3.5 w-7 h-7 bg-yellow-500 rounded-full border-4 border-white"></div>
+        <div class="backdrop-blur-lg bg-gray-800/50 p-6 rounded-xl shadow-lg flex items-center space-x-4">
+          
+          <!-- Company Logo -->
+          <img src="ecell iitb logo.jpg" alt="E-Cell IIT Bombay Logo" class="w-12 h-12 rounded-lg shadow-md">
+      
+          <!-- Experience Content -->
+          <div>
+            <h3 class="text-2xl font-semibold text-white">Campus Ambassador</h3>
+            <p class="text-gray-300 text-lg">E-Cell, IIT Bombay</p>
+            <p class="text-gray-400 text-md">Jul 2024 - Dec 2024</p>
+            <!-- <p class="mt-3 text-gray-200 text-lg">[Short description of your role]</p> -->
+          </div>
+        </div>
+      </div>
+      
+  </div>
+</section>
+
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-transparent py-16">
+    <div class="container mx-auto px-6 text-center">
+      <h3 class=" text-3xl font-bold primary-yellow">Get In Touch</h3>
+      <span class="backdrop-blur-md bg-gray-800/50 rounded-lg text-white mt-4">Feel free to reach out for collaborations or job opportunities!</span>
+      <form class="mt-8 space-y-6 max-w-lg mx-auto">
+        <input type="text" placeholder="Your Name" class="w-full p-3 backdrop-blur-md bg-gray-800/50 rounded-lg text-white">
+        <input type="email" placeholder="Your Email" class="w-full p-3 backdrop-blur-md bg-gray-800/50 rounded-lg text-white">
+        <textarea placeholder="Your Message" rows="5" class="w-full p-3 backdrop-blur-md bg-gray-800/50 rounded-lg text-white"></textarea>
+        <button type="submit" class="bg-yellow-500 text-gray-900 font-bold px-6 py-3 rounded-full hover:bg-yellow-600 transition-all">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 py-6 bg-opacity-80">
+  <div class="text-center text-gray-500 space-y-2">
+    <p>📞 +91 7055815443 | ✉️ arvind42005@gmail.com </p>
+    <p>©Arvind Singh Portfolio website</p>
+  </div>
+</footer>
+
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="script.js"></script>
+</html>
