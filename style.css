@@ -1,0 +1,44 @@
+/* Background Video */
+.background-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+/* General Styles */
+body {
+  background: transparent;
+  color: #eaeaea;
+}
+
+/* Primary color for headings */
+.primary-yellow {
+  color: #FFD700;
+}
+
+/* Hover effect */
+.hover-highlight:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0px 4px 10px rgba(255, 215, 0, 0.8);
+}
+
+/* Section styling for readability */
+section {
+  position: relative;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background */
+  padding: 50px 20px;
+  border-radius: 10px;
+  /* backdrop-filter: blur(5px); Smoothens visibility */
+}
+
+/* Header & Footer Opacity */
+header, footer {
+  background: rgba(0, 0, 0, 0.8);
+}
